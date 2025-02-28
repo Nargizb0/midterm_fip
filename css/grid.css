@@ -27,14 +27,13 @@
   }
   
   .box {
-     background-color: rgb(60, 57, 57);
+     background-color: rgb(158, 10, 97);
      padding: 20px;
      text-align: center;
      margin-top: 10px;
      margin-bottom:10px;
      min-height: 100px;
-     color: beige;
-     font-family: Arial, Helvetica, sans-serif;
+     color: rgb(255, 255, 255);
     
    }
   
