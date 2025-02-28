@@ -12,43 +12,47 @@
     <title>Welcome to The Orbitz Soda Website</title>
 </head>
 <body>
-    <header>
-        <nav class="grid-con">
-            <div class="nav col-span-full >m-col-start-1 m-col-end-4 l-col-start-1 l-col-end-4"></div>
-            <ul>
-                <li><a href="#">Beverages</a></li>
-                <li><a href="#">Recipes</a></li>
-                <li><a href="#">About</a></li>
-            </ul>
-            <div class="right-nav">
-                <span>All Orders Ship Free!</span>
-                <a href="#">Search</a>
-                <a href="#">Cart</a>
-            </div>
-        </nav>
-        <div class="logo"><img src="images/logo-orbitz.svg" alt="orbitz logo"></div>
+    <header class="grid-con" id="main-header">
+    
+        <nav class="box col-start-4 col-end-5 m-col-start-4 m-col-end-13 l-col-start-3 l-col-end-13 col-span-full l-col-span-full m-col-span-full" id="main-nav"></nav>
+           <nav id="main-nav" class="l-col-start-4 l-col-end-10 col-span-full">
+                        <ul>
+                            <li><a href="#">Beverages</a></li>
+                            <li><a href="#">Recipes</a></li>
+                            <li><a href="#">About</a></li>
+                        </ul>
+                        <div class="right-nav">
+                            <span>All Orders Ship Free!</span>
+                            <a href="contact.html">Contact Us</a>
+                            <a href="#">Cart</a>
+                        </div>
+                        <div class="col-start-1 col-end-4 l-col-start-6 l-col-end-8 col-span-full l-col-span-full" id="main-logo">
+                            <img src="images/logo-orbitz.svg" alt="Orbitz Logo">
+                        </div>
+                </nav>
     </header>
-
+    
     <main>
-        <section class="grid-con">
-            <h1 class="hidden">Hero image</h1>
-            <div id="hero">
-              
-                    <img src="hand-holding-can.jpg" alt="Holding Orbitz Can">
-                </div>
-                    <h2>A Drink From Another Dimension!</h2>
-                    <div class="low-sugar-icon"><img src="images/low-sugar-icon.svg" alt="low-sugar-icon"></div>
-                    <a href="#" class="button">SHOP NOW →</a>
-                
-                <div class="product-hero">
-                    <img src="orbitz-can.jpg" alt="Orbitz Can">
-                </div>
-                <div class="testimonial">
-                    <p>"I am still shocked with how incredible these drinks are."</p>
-                    <span>— Jennifer Kizzer, Verified Buyer</span>
-                </div>
-           
+        <section class="grid-con" id="hero-con">
+            <div class="box col-span-full l-col-start-1 l-col-end-3" id="hero"></div>
+            <div class="can">
+                <img src="images/hand-holding-can.jpg" alt="holding orbitz can">
+                <h2>A drink from another dimension!</h2>
+                <img src="images/low-sugar-icon.svg" alt="low sugar icon">
+                <a href="#" class-="button">Shop now!</a>
+             </div>
+
+        </section>
+        <section class="grid-con" id="products">
+            <div class="box m-col-start-1 m-col-end-7 l-col-start-1 l-col-end-7 col-span-full m-col-span-full l-col-span-full">Product 1</div>
+            <div class="box m-col-start-7 m-col-end-13 m-col-span-full l-col-start-7 l-col-end-13 col-span-full l-col-span-full">Product 2</div>
         </section>
     </main>
+    <footer>
+        <div class="grid-con">
+            <nav class="box col-span-full l-col-span-full" id="footer-nav">footer nav</nav>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>
